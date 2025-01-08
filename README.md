@@ -9,7 +9,7 @@ Wishing everyone a successful journey in Singapore!
 ```
 CREATE TABLE sgpr_application_tab (
     id SERIAL PRIMARY KEY, -- removed
-    author_email VARCHAR(255),
+    author_email VARCHAR(255), -- removed
     record_nickname VARCHAR(255),
 
     age INT,
